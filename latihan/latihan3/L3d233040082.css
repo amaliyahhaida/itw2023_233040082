@@ -1,0 +1,49 @@
+body {
+  font-family: Georgia;
+  text-align: justify;
+  background-image: url(img/background.png);
+  background-repeat: repeat-x;
+}
+
+.paragraf1 {
+  color: orange;
+  text-align: center;
+}
+
+.paragraf2 {
+  text-align: right;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: darkblue;
+  font-family: comic sans ms;
+}
+
+h4 {
+  font-style: oblique;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h3 a {
+  color: red;
+  font-variant: small-caps;
+}
+
+h3 a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.paragraf2 a {
+  text-decoration: none;
+}
+.paragraf2 a:hover {
+  background-color: darkblue;
+  color: white;
+}

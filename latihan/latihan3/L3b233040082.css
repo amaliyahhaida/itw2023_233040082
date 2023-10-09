@@ -1,0 +1,31 @@
+* {
+  background-color: aqua;
+  font-family: Georgia;
+  text-align: justify;
+}
+
+.paragraf1 {
+  color: orange;
+  text-align: center;
+}
+
+.paragraf2 {
+  text-align: right;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: darkblue;
+  font-family: comic sans ms;
+}
+
+h4 {
+  font-style: oblique;
+  text-align: right;
+}
+
+h3 a {
+  color: white;
+  font-variant: small-caps;
+}
