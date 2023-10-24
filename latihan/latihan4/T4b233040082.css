@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font: 16px/28px;
+    background-color: lightskyblue;
+    color: lightslategray;
+    font-family: cambria;
+  }
+  
+  .hero {
+    height: 280px;
+    background-size: cover;
+    background-position: 0 -10px;
+    background-image: url(img/BASKET.jpg);
+  }
+  
+  .container {
+    margin: auto;
+    width: 800px;
+    background-color: white;
+  }
+  
+  .header {
+    padding: 20px;
+    padding-bottom: 10px;
+    background-color: gainsboro;
+  }
+  .header .judul {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: rgb(197, 47, 30);
+    padding: 3px;
+    font-style: italic;
+    transition: 1s ease-in-out;
+  }
+  
+  .header a:hover {
+    background-color: rgb(197, 47, 30);
+    color: pink;
+  }
+  
+  .content h2 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .content .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+  }
+  
+  .content .penulis a {
+    color: salmon;
+    text-decoration: none;
+  }
+  
+  .content p {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .content {
+    background-color: lightgray;
+  }
+  
+  .footer {
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .footer a {
+    color: grey;
+    text-decoration-line: none;
+  }
+  
+  .footer a:hover {
+    background-color: grey;
+    color: red;
+  }
+  
+  #narto {
+    padding-left: 210px;
+    margin: 0;
+  }
+  
+  #sumber {
+    text-decoration-line: none;
+    font: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #sumber:hover {
+    background-color: blueviolet;
+    color: lightyellow;
+  }
+  
