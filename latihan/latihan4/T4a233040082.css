@@ -40,7 +40,7 @@ body {
 .hero {
   height: 280px;
   background-size: cover;
-  background-image: url(img/HEROO.jpg);
+  background-image: url(img/HERO.jpg);
   background-position: 0 -10px;
   border-top: 5px solid skyblue;
   border-bottom: 5px solid plum;
