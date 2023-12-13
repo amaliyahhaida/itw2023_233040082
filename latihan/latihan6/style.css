@@ -4,7 +4,7 @@
   }
   
   body {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Silkscreen', sans-serif;
     overflow-x: hidden;
   }
   
@@ -20,7 +20,7 @@
   }
   
   nav .logo {
-    font-family: 'Play', cursive;
+    font-family: 'Pacifico', cursive;
     letter-spacing: 3px;
   }
   
@@ -65,7 +65,7 @@
     display: block;
     width: 28px;
     height: 3px;
-    background-color: rgb(207, 21, 21);
+    background-color: rgb(197, 148, 242);
     border-radius: 3px;
     transition: all 0.5s;
   }
@@ -95,14 +95,14 @@
   
   /* Responsive Breakpoint */
   
-  /* Tablet */
+  /* ukuran Tablet */
   @media screen and (max-width: 768px) {
     nav ul {
       width: 50%;
     }
   }
   
-  /* Mobile */
+  /* ukuran Mobile */
   @media screen and (max-width: 576px) {
     .menu-toggle {
       display: flex;
@@ -116,7 +116,7 @@
       justify-content: space-evenly;
       flex-direction: column;
       align-items: center;
-      background-color: rgb(127, 127, 127);
+      background-color: rgb(205, 131, 131);
       z-index: -1;
       transform: translateX(100%);
       transition: all 1s;
@@ -124,7 +124,7 @@
     }
   
     nav ul.slide {
-      transform: translateX(0);
       opacity: 1;
+      transform: translateX(0);
     }
   }
